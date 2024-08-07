@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ML-project"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Ml_notebook.qmd
+        text: notes
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
